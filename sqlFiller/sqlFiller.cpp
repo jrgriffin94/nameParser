@@ -7,7 +7,7 @@
 #include <sqlext.h>
 #include <sqltypes.h>
 
-using namespace std;    // to save us having to type std::
+using namespace std;
 
 const int MAX_CHAR = 1024;
 
@@ -68,23 +68,9 @@ int main()
 		SQLHSTMT StatementHandle;
 		retcode = SQLAllocHandle(SQL_HANDLE_STMT, ConnHandle, &StatementHandle);
 
-		// Part 1: Create the Employee table (Database)
+		// Hardcode records into the table
 
 		/*do
-		{
-			cout << "Create the new table? ";
-			cin >> chrTemp;
-		} while (cin.fail());
-
-		if (chrTemp == 'y' || chrTemp == 'Y')
-		{
-			strcpy((char *)SQLStmt, "CREATE TABLE [dbo].[Employee]([pkEmployeeID] [int] IDENTITY(1,1) NOT NULL,[FirstName] [varchar](50) NOT NULL,[LastName] [varchar](50) NOT NULL,[Address] [varchar](30) NOT NULL,[City] [varchar](30) NOT NULL,[State] [varchar](3) NOT NULL, [Salary] [decimal] NOT NULL,[Gender] [varchar](1) NOT NULL,  [Age] [int] NOT NULL, CONSTRAINT [PK_Employee] PRIMARY KEY CLUSTERED ([pkEmployeeID] ASC)WITH (PAD_INDEX  = OFF, STATISTICS_NORECOMPUTE  = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS  = ON, ALLOW_PAGE_LOCKS  = ON) ON [PRIMARY]) ON [PRIMARY]");
-			retcode = SQLExecDirect(StatementHandle, SQLStmt, SQL_NTS);
-		}*/
-
-			// Part 2: Hardcode records into the table
-
-		do
 		{
 			cout << "Add records to the table? ";
 			cin >> chrTemp;
@@ -118,63 +104,8 @@ int main()
 
 			strcpy((char *)SQLStmt, "INSERT INTO employee([FirstName], [LastName], [Address], [City], [State], [Salary], [Gender],[Age]) VALUES ('Tom','Jefferson','234 Friendship Way','Battle Creek','MI', 41000.00 ,'M', 31)");
 			retcode = SQLExecDirect(StatementHandle, SQLStmt, SQL_NTS);
-		}
+		}*/
 
-			// Part 3 & 4: Searchs based on criteria
-
-		//do
-		//{
-		//	cout << "1. Display all records in the database" << endl;
-		//	cout << "2. Display all records with age 40 or over" << endl;
-		//	cout << "3. Display all records with salary $30K or over" << endl;
-		//	cout << "4. Exit" << endl << endl;
-
-		//	do
-		//	{
-		//		cout << "Please enter a selection: ";
-		//		cin >> chrTemp;
-		//	} while (cin.fail());
-
-		//	if (chrTemp == '1')
-		//	{
-		//		strcpy((char *)SQLStmt, "SELECT [FirstName], [LastName], [Address], [City], [State], [Salary], [Gender],[Age] FROM EMPLOYEE");
-		//	}
-		//	else if (chrTemp == '2')
-		//	{
-		//		strcpy((char *)SQLStmt, "SELECT [FirstName], [LastName], [Address], [City], [State], [Salary], [Gender],[Age] FROM EMPLOYEE WHERE [AGE] >= 40");
-		//	}
-		//	else if (chrTemp == '3')
-		//	{
-		//		strcpy((char *)SQLStmt, "SELECT [FirstName], [LastName], [Address], [City], [State], [Salary], [Gender],[Age] FROM EMPLOYEE WHERE [Salary] >= 30000");
-		//	}
-
-		//	if (chrTemp == '1' || chrTemp == '2' || chrTemp == '3')
-		//	{
-		//		retcode = SQLExecDirect(StatementHandle, SQLStmt, SQL_NTS);
-
-		//		//SQLGetDiagRec(SQL_HANDLE_STMT, StatementHandle, RecNumber, SQLState, NativeErrorPtr, (SQLCHAR*) MessageText, (SQLINTEGER) BufferLength, (SQLSMALLINT*) &TextLengthPtr);
-
-		//		SQLBindCol(StatementHandle, 1, SQL_C_CHAR, &rtnFirstName, sizeof(rtnFirstName), NULL);
-		//		SQLBindCol(StatementHandle, 2, SQL_C_CHAR, &rtnLastName, sizeof(rtnLastName), NULL);
-		//		SQLBindCol(StatementHandle, 3, SQL_C_CHAR, &rtnAddress, sizeof(rtnAddress), NULL);
-		//		SQLBindCol(StatementHandle, 4, SQL_C_CHAR, &rtnCity, sizeof(rtnCity), NULL);
-		//		SQLBindCol(StatementHandle, 5, SQL_C_CHAR, &rtnState, sizeof(rtnState), NULL);
-		//		SQLBindCol(StatementHandle, 6, SQL_C_DOUBLE, &rtnSalary, sizeof(rtnSalary), NULL);
-		//		SQLBindCol(StatementHandle, 7, SQL_C_CHAR, &rtnGender, sizeof(rtnGender), NULL);
-		//		SQLBindCol(StatementHandle, 8, SQL_C_LONG, &rtnAge, sizeof(rtnAge), NULL);
-
-		//		for (;;)
-		//		{
-		//			retcode = SQLFetch(StatementHandle);
-		//			if (retcode == SQL_NO_DATA_FOUND) break;
-
-		//			cout << rtnFirstName << " " << rtnLastName << " " << rtnAddress << " " << rtnCity << " " << rtnState << " " << rtnSalary << " " << rtnGender << " " << rtnAge << endl;
-		//		}
-
-		//		SQLFreeStmt(StatementHandle, SQL_CLOSE);
-
-		//	}
-		//} while (chrTemp != '4');
 
 		SQLFreeStmt(StatementHandle, SQL_CLOSE);
 		SQLFreeHandle(SQL_HANDLE_STMT, StatementHandle);
