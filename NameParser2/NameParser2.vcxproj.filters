@@ -1,0 +1,446 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NameParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BST.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Node.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="yob1880.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1881.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1882.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1883.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1884.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1885.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1886.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1887.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1888.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1889.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1890.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1891.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1892.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1893.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1894.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1895.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1896.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1897.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1898.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1899.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1900.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1901.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1902.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1903.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1904.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1905.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1906.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1907.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1908.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1909.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1910.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1911.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1912.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1913.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1914.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1915.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1916.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1917.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1918.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1919.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1920.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1921.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1922.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1923.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1924.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1925.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1926.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1927.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1928.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1929.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1930.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1931.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1932.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1933.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1934.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1935.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1936.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1937.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1938.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1939.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1940.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1941.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1942.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1943.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1944.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1945.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1946.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1947.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1948.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1949.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1950.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1951.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1952.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1953.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1954.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1955.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1956.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1957.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1958.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1959.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1960.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1961.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1962.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1963.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1964.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1965.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1966.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1967.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1968.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1969.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1970.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1971.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1972.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1973.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1974.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1975.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1976.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1977.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1978.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1979.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1980.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1981.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1982.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1983.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1984.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1985.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1986.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1987.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1988.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1989.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1990.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1991.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1992.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1993.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1994.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1995.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1996.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1997.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1998.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob1999.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2000.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2001.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2002.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2003.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2004.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2005.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2006.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2007.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2008.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2009.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2010.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2011.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="yob2012.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="dataFile.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="FullNameList.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NameParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

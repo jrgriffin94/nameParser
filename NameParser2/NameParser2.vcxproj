@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FFCA8957-9258-4BD1-B5D7-321CFB5B6E00}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>NameParser2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="BST.h" />
+    <ClInclude Include="Header.h" />
+    <ClInclude Include="NameParser.h" />
+    <ClInclude Include="Node.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="dataFile.txt" />
+    <Text Include="FullNameList.txt" />
+    <Text Include="yob1880.txt" />
+    <Text Include="yob1881.txt" />
+    <Text Include="yob1882.txt" />
+    <Text Include="yob1883.txt" />
+    <Text Include="yob1884.txt" />
+    <Text Include="yob1885.txt" />
+    <Text Include="yob1886.txt" />
+    <Text Include="yob1887.txt" />
+    <Text Include="yob1888.txt" />
+    <Text Include="yob1889.txt" />
+    <Text Include="yob1890.txt" />
+    <Text Include="yob1891.txt" />
+    <Text Include="yob1892.txt" />
+    <Text Include="yob1893.txt" />
+    <Text Include="yob1894.txt" />
+    <Text Include="yob1895.txt" />
+    <Text Include="yob1896.txt" />
+    <Text Include="yob1897.txt" />
+    <Text Include="yob1898.txt" />
+    <Text Include="yob1899.txt" />
+    <Text Include="yob1900.txt" />
+    <Text Include="yob1901.txt" />
+    <Text Include="yob1902.txt" />
+    <Text Include="yob1903.txt" />
+    <Text Include="yob1904.txt" />
+    <Text Include="yob1905.txt" />
+    <Text Include="yob1906.txt" />
+    <Text Include="yob1907.txt" />
+    <Text Include="yob1908.txt" />
+    <Text Include="yob1909.txt" />
+    <Text Include="yob1910.txt" />
+    <Text Include="yob1911.txt" />
+    <Text Include="yob1912.txt" />
+    <Text Include="yob1913.txt" />
+    <Text Include="yob1914.txt" />
+    <Text Include="yob1915.txt" />
+    <Text Include="yob1916.txt" />
+    <Text Include="yob1917.txt" />
+    <Text Include="yob1918.txt" />
+    <Text Include="yob1919.txt" />
+    <Text Include="yob1920.txt" />
+    <Text Include="yob1921.txt" />
+    <Text Include="yob1922.txt" />
+    <Text Include="yob1923.txt" />
+    <Text Include="yob1924.txt" />
+    <Text Include="yob1925.txt" />
+    <Text Include="yob1926.txt" />
+    <Text Include="yob1927.txt" />
+    <Text Include="yob1928.txt" />
+    <Text Include="yob1929.txt" />
+    <Text Include="yob1930.txt" />
+    <Text Include="yob1931.txt" />
+    <Text Include="yob1932.txt" />
+    <Text Include="yob1933.txt" />
+    <Text Include="yob1934.txt" />
+    <Text Include="yob1935.txt" />
+    <Text Include="yob1936.txt" />
+    <Text Include="yob1937.txt" />
+    <Text Include="yob1938.txt" />
+    <Text Include="yob1939.txt" />
+    <Text Include="yob1940.txt" />
+    <Text Include="yob1941.txt" />
+    <Text Include="yob1942.txt" />
+    <Text Include="yob1943.txt" />
+    <Text Include="yob1944.txt" />
+    <Text Include="yob1945.txt" />
+    <Text Include="yob1946.txt" />
+    <Text Include="yob1947.txt" />
+    <Text Include="yob1948.txt" />
+    <Text Include="yob1949.txt" />
+    <Text Include="yob1950.txt" />
+    <Text Include="yob1951.txt" />
+    <Text Include="yob1952.txt" />
+    <Text Include="yob1953.txt" />
+    <Text Include="yob1954.txt" />
+    <Text Include="yob1955.txt" />
+    <Text Include="yob1956.txt" />
+    <Text Include="yob1957.txt" />
+    <Text Include="yob1958.txt" />
+    <Text Include="yob1959.txt" />
+    <Text Include="yob1960.txt" />
+    <Text Include="yob1961.txt" />
+    <Text Include="yob1962.txt" />
+    <Text Include="yob1963.txt" />
+    <Text Include="yob1964.txt" />
+    <Text Include="yob1965.txt" />
+    <Text Include="yob1966.txt" />
+    <Text Include="yob1967.txt" />
+    <Text Include="yob1968.txt" />
+    <Text Include="yob1969.txt" />
+    <Text Include="yob1970.txt" />
+    <Text Include="yob1971.txt" />
+    <Text Include="yob1972.txt" />
+    <Text Include="yob1973.txt" />
+    <Text Include="yob1974.txt" />
+    <Text Include="yob1975.txt" />
+    <Text Include="yob1976.txt" />
+    <Text Include="yob1977.txt" />
+    <Text Include="yob1978.txt" />
+    <Text Include="yob1979.txt" />
+    <Text Include="yob1980.txt" />
+    <Text Include="yob1981.txt" />
+    <Text Include="yob1982.txt" />
+    <Text Include="yob1983.txt" />
+    <Text Include="yob1984.txt" />
+    <Text Include="yob1985.txt" />
+    <Text Include="yob1986.txt" />
+    <Text Include="yob1987.txt" />
+    <Text Include="yob1988.txt" />
+    <Text Include="yob1989.txt" />
+    <Text Include="yob1990.txt" />
+    <Text Include="yob1991.txt" />
+    <Text Include="yob1992.txt" />
+    <Text Include="yob1993.txt" />
+    <Text Include="yob1994.txt" />
+    <Text Include="yob1995.txt" />
+    <Text Include="yob1996.txt" />
+    <Text Include="yob1997.txt" />
+    <Text Include="yob1998.txt" />
+    <Text Include="yob1999.txt" />
+    <Text Include="yob2000.txt" />
+    <Text Include="yob2001.txt" />
+    <Text Include="yob2002.txt" />
+    <Text Include="yob2003.txt" />
+    <Text Include="yob2004.txt" />
+    <Text Include="yob2005.txt" />
+    <Text Include="yob2006.txt" />
+    <Text Include="yob2007.txt" />
+    <Text Include="yob2008.txt" />
+    <Text Include="yob2009.txt" />
+    <Text Include="yob2010.txt" />
+    <Text Include="yob2011.txt" />
+    <Text Include="yob2012.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NameParser.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
