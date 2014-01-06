@@ -14,6 +14,7 @@
     <ProjectGuid>{FFCA8957-9258-4BD1-B5D7-321CFB5B6E00}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>NameParser2</RootNamespace>
+    <ProjectName>AccountChecker</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -69,6 +70,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Program Files\MySQL\MySQL Connector C++ 1.0.5\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalUsingDirectories>C:\Program Files\MySQL\MySQL Connector C++ 1.0.5\lib\opt;%(AdditionalUsingDirectories)</AdditionalUsingDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -221,6 +224,7 @@
     <Text Include="yob2012.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="dbFiller.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="NameParser.cpp" />
   </ItemGroup>

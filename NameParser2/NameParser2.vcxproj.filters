@@ -442,5 +442,8 @@
     <ClCompile Include="NameParser.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="dbFiller.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
